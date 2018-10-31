@@ -1,0 +1,56 @@
+body {
+
+  background-size: 100% 107%;
+background-image: url('/images/Untitled.jpg');
+  background-repeat: no-repeat;
+  background-color: rgba(1, 4, 9, 0.8);
+  color:white ;
+  font-family: Nud Motoya Mincho W6;
+ font-size : 25px;
+  
+  
+  
+  height: 5700px;
+}
+.container {
+  margin: auto;
+  overflow: hidden;
+}
+header h1 {
+  font-family: 'Yeseva One', cursive;
+  float: left;
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+  padding: 0px;
+}
+
+
+#navbar ul {
+  padding-bottom: 100px;
+  margin: 0px;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: right;
+  width: 250px;
+  height: 5px;
+  padding-top: 30px;
+}
+
+#navbar ul li a {
+  font-family: Nud Motoya Mincho W6;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding-top: 0px;
+  min-height: px;
+}
+
+#navbar ul li a:hover {
+  border-bottom: 3px solid white;
+  border-top: 1px solid white;
+}

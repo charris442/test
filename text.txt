@@ -1,0 +1,3 @@
+document.getElementById('ButtonID').setAttribute("style","visibility:hidden");
+document.getElementById('ButtonID').style.visibility = 'hidden';
+https://stackoverflow.com/questions/14279686/make-submit-button-disappear-when-clicked

@@ -1,0 +1,441 @@
+/*Global*/
+
+body {
+  background-size: 100% 35%;
+  /*when entire website done at school adjust the width aka 80%*/
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: auto;
+  overflow: hidden;
+  
+}
+
+/*Navbar*/
+
+header h1 {
+  font-family: 'Yeseva One', cursive;
+  float: right;
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+  padding: 0px;
+}
+
+#logo {
+  width: 350px;
+  height: 150px;
+  float: left;
+}
+
+#login {
+  cursor:default;
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  right: 100px;
+  top: 52px;
+}
+
+
+.imgcontainer {
+    text-align:center ;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+
+
+#modal-wrapper h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  height: 37px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+#avatar {
+  width: 300px;
+  height: 100px;
+  border-radius: 
+}
+
+#navbar ul {
+  top: 20px;
+  padding-bottom: 350px;
+  list-style: none;
+  text-align: center;
+  margin-right: 390px;
+}
+
+#navbar ul li {
+  width: 180px;
+  height: 5px;
+  margin-bottom: 5px;
+  padding-top: 30px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#navbar ul li a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding-top: 0px;
+  min-height: px;
+  margin-right: 3px;
+}
+
+#navbar ul li a:hover {
+  border-bottom: 3px solid white;
+  border-top: 1px solid white;
+}
+
+/*Starter*/
+
+#starter {
+  padding-bottom: 150px;
+}
+
+#starter h1 {
+  color: white;
+  font-size: 57px;
+  font-family: 'Yeseva One', cursive;
+}
+
+#starter h2 {
+  color: white;
+  font-size: 27;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#starter #button1 a {
+  text-decoration: none;
+  color: white;
+}
+
+#starter #button1 {
+  width: 150px;
+  font-size:17px;
+  height: 40px;
+  color: white;
+  background-color: rgba(0, 0, 0, .6);
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#enter {
+  
+  border: 1px solid black;
+   border-radius: 25px;
+  
+}
+
+#starter #button1:hover {
+  border-style: double 5px;
+  border-color: rgba(255, 255, 255, 1);
+  border-width: 5px;
+}
+
+/*shop*/
+
+#shop h1 {
+  float: left;
+  padding-left: 90px;
+  font-size: 57px;
+  text-transform: uppercase;
+  padding-top: 180px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#shop h2 {
+  font-family: 'Work Sans', sans-serif;
+  float: right;
+  font-size: 27px;
+  padding-top: 200px;
+  list-style: none;
+  padding-right: 90px;
+}
+
+#shop h2 a {
+  text-decoration: none;
+}
+
+#shop h3 {
+  font-size: 57px;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  padding-top: 500px;
+  border-bottom: 1px solid rgba(0, 0, 0, .6);
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 40px;
+}
+
+#shop h3 a {
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 200px;
+}
+
+#shop h3 a a {
+  border-radius: 0%;
+  background-color: white;
+  color: black;
+}
+
+/*shop2*/
+
+#shop2 {
+  margin-bottom: 180px;
+  border-top: 1px solid black;
+}
+
+#shop2 h1 {
+  font-size: 37px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#shop2 h1 a {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+/*reserved space for templates*/
+
+#shop2 img {
+  width: 300px;
+}
+
+#shop2 h4 a {
+  margin-top: 10px;
+  font-size: 17px;
+  font-family: 'Work Sans', sans-serif;
+  text-decoration: none;
+}
+
+#shop2 h5 {
+  font-size: 57px;
+}
+
+#shop2 h5 a {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 27px;
+}
+
+/*About*/
+
+#aboutr {
+  background-image: url('/images/imageg.png');
+  background-position: 0px 0px;
+  background-color: white;
+  padding-bottom: 75px;
+  padding-top: 75px;
+}
+
+#about2 {
+  background-image: url('/images/image.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#about h1 {
+  float: left;
+  padding-left: 90px;
+  font-size: 57px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  position: absolute;
+}
+
+#about h2 {
+  font-family: 'Work Sans', sans-serif;
+  float: right;
+  font-size: 27px;
+  list-style: none;
+  padding-right: 90px;
+  color: white;
+}
+
+#about2 h3 {
+  font-size: 27px;
+  font-family: 'Work Sans', sans-serif;
+  float: left;
+  padding-left: 90px;
+  padding-top: 50px;
+}
+
+#about2 h4 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 57px;
+  float: right;
+  padding-right: 90px;
+}
+
+/*contacts*/
+
+#contacts {
+  background-repeat: no-repeat;
+  color: black;
+  background-size: 1800px auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border: 1px solid black;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#contacts h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 27px;
+}
+
+#contacts h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+}
+
+/*footer*/
+
+footer {
+  padding: 20px;
+  margin: 20px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, .8);
+  text-align: center;
+}
+
+/*fixed buttom*/
+
+#fixedbutton {
+  position: fixed;
+  bottom: 10px;
+  right: 0px;
+  margin-top: 10px;
+}
+
+#fixedbutton img {
+  width: 40%;
+  height: 8%;
+  border-radius: 120px;
+  opacity: .8;
+}
+
+/*login*/
+
+.container {
+  
+  padding: 16px;
+  
+}
+
+input[type=text],input[type=password] {
+  postion: fixed;
+  width: 85%;
+  padding: 12px 10px;
+  margin: 8px 26px;
+  display: inline-block;
+  border: 1px solid #9db5b7;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* The Modal (background) */
+
+.modal {
+  postion: fixed;
+  display: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+button a {
+  color: black;
+}
+
+/* Modal Content Box */
+
+.modal-content {
+  postion: fixed;
+  background-color: #fefefe;
+  border-radius: 10px;
+  float: right;
+  height: 100%;
+  border: 1px solid #888;
+  width: 100%;
+  padding-bottom: 30px;
+  background-color: rgba(255, 255, 255, .8)
+}
+
+/* The Close Button (x) */
+
+#close {
+  position: absolute;
+  right: 30px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#close:hover,
+#close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+
+.animate {
+  animation: zoom 0.6s
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+#button2 {
+    background-color: #9db5b7;
+    color: white;
+    padding: 14px 15px;
+    margin: 8px 10px;
+    border: none;
+    cursor: pointer;
+    width: 85%;
+	font-size:20px;
+   border: 1px solid white;
+   border-radius: 25px;
+  margin-top: 25px;
+}
+#button2:hover {
+    opacity: 0.8;
+    border: 1px solid black;
+    
+}
+
+
+
+  
